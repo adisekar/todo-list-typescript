@@ -1,5 +1,4 @@
-"use strict";
-const { v4: uuidv4 } = require('uuid');
+import { v4 as uuidv4 } from '../node_modules/uuid/dist/esm-browser/index.js';
 const listElement = document.querySelector('#todo-list');
 const formElement = document.querySelector('#todo-form');
 const inputElement = document.querySelector('#todo-input');
